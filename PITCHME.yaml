@@ -1,0 +1,16 @@
+# logo: assets/
+# footnote: "Some text"
+# vertical-center: false
+
+theme: black
+# theme-override : assets/css/PITCHME.css
+
+highlight: monokai
+
+slide-number: true
+
+vertical-center: true
+
+transition: concave
+
+mousewheel: false
