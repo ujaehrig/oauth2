@@ -1,1 +1,5 @@
 ---?include=topics/overview/PITCHME.md
+---?include=topics/oauth-client/PITCHME.md
+---?include=topics/grant-types/PITCHME.md
+---?include=topics/server-types/PITCHME.md
+---?include=topics/permissions/PITCHME.md
