@@ -14,13 +14,12 @@
 
 # Authorization Code
 
----
-
 @ul
+- OAuth dance
 - server doesn't see user credentials
 - authentication at authorization-server
 - redirect with code to server 
-- server 
+- server requests token with client credential
 @ulend
 
 +++
@@ -28,7 +27,10 @@
 # Implicit
 
 @ul
-- deprecated
+- not recommended
+- server doesn't see user credentials
+- authentication at authorization-server
+- redirect with token to server 
 @ulend
 
 +++
