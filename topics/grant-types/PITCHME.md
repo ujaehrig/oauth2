@@ -1,6 +1,6 @@
 # GRANT-TYPES
 
-# Standard Grant Types
+## Standard Grant Types
 
 @ul
 

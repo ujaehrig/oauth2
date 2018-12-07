@@ -9,7 +9,6 @@
 - Introduction
 - The OAuth Client
 - Grant-Types
-- Server-Types
 - Permissions
 
 @ulend
