@@ -1,5 +1,7 @@
 # GRANT-TYPES
 
+# Standard Grant Types
+
 @ul
 
 - Authorization Code
@@ -16,10 +18,10 @@
 
 @ul
 - OAuth dance
-- server doesn't see user credentials
-- authentication at authorization-server
-- redirect with code to server 
-- server requests token with client credential
+- Client doesn't see user credentials
+- Authentication at Authorization-Server
+- Redirect with code to Client 
+- Client requests token with client credentials
 @ulend
 
 +++
@@ -27,10 +29,11 @@
 # Implicit
 
 @ul
-- not recommended
-- server doesn't see user credentials
-- authentication at authorization-server
-- redirect with token to server 
+- not recommended!
+- Client doesn't see user credentials
+- Authentication at Authorization-server
+- Redirect with token to Client
+- No Client-Credentials possible 
 @ulend
 
 +++
@@ -39,17 +42,17 @@
 
 @ul
 - Client & User credentials
-- Server knows user credentials
-- returns a token
+- Client knows user credentials
+- Authorization Server returns a token
 @ulend
 
 +++
 
-# Client Credentials
+# Client 
 
 @ul
-- Client credential *only*
-- returns a token
+- Client credentials *only*
+- Authorization Server returns a token
 @ulend
 
 +++
@@ -57,6 +60,6 @@
 # Refresh
 
 @ul
-- optional 
-- refreshes an existing token
+- Optional 
+- Refreshes an existing token
 @ulend

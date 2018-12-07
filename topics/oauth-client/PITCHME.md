@@ -1,7 +1,10 @@
 # OAuth Client
 
 @ul
-- Client represents an accessing service
-- Can request token alone or with user
+
+- OAuth Clients represents the accessing service
+- OAuth Clients can request a token alone or behalf of a user
+- OAuth Clients may be limited to special grant-types
+- Scopes (default or subset) 
 
 @ulend
