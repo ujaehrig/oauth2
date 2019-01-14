@@ -1,6 +1,11 @@
 # Permissions
 
-## Scopes and Authorities
+@ul
+
+- Scopes
+- Authorities
+
+@ulend
 
 +++
 
@@ -31,9 +36,8 @@
 
 # Access
 
-## Spring Security
-
 @ul
+- Spring Security
 - on method level
 - on endpoint
 - SpEL @note[Spring Expression Language]
@@ -45,11 +49,10 @@
 
 @ul
 
-- Must be enabled via `@EnableGlobalMethodSecurity`
-- @PreAuthorize @note[SpEL, might use ]
+- Enabled with `@EnableGlobalMethodSecurity`
+- @PreAuthorize @note[SpEL might be used ]
 - @PostAuthorize
-- @Secured
-- @RolesAllowed @note[like @Secured, but JSR-250]
+- @Secured / @RolesAllowed @note[@RolesAllowed is like @Secured, but JSR-250]
 - @PreFilter / @PostFilter
 
 @ulend
@@ -69,17 +72,20 @@ public void someMethod(String username) {
 
 @ul
 
-- Enabled via `@EnableResourceServer`, configured
+- Enabled with `@EnableResourceServer`
 - Configured in ResourceServerConfiguration @note[ extends ResourceServerConfigurerAdapter ]
 
 @ulend
+
++++ 
 
 ```java
 http
   .authorizeRequests()
     .antMatchers(POST, uri).hasAuthority("auth1") 
     .antMatchers(GET, uri).hasAnyAuthority("auth1", "auth2")
-    .antMatchers(PUT, uri).access("hasAuthority('auth1') or #oauth2.hasScope('scope1')")
+    .antMatchers(PUT, uri).access(
+        "hasAuthority('auth1') or #oauth2.hasScope('scope1')")
 ```
 @[3](check for one authority)
 @[4](check for one of multiple authorities)

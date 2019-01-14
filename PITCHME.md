@@ -2,8 +2,8 @@
 
 # OAuth2
 
----?include=topics/overview/PITCHME.md
----?include=topics/introduction/PITCHME.md
----?include=topics/oauth-client/PITCHME.md
----?include=topics/grant-types/PITCHME.md
----?include=topics/permissions/PITCHME.md
+---?include=topics/01-overview/PITCHME.md
+---?include=topics/02-introduction/PITCHME.md
+---?include=topics/03-oauth-client/PITCHME.md
+---?include=topics/04-grant-types/PITCHME.md
+---?include=topics/05-permissions/PITCHME.md

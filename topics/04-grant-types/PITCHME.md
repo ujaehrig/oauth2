@@ -1,7 +1,5 @@
 # GRANT-TYPES
 
-## Standard Grant Types
-
 @ul
 
 - Authorization Code
@@ -14,7 +12,7 @@
 
 +++?image=https://source.unsplash.com/zdSoe8za6Hs
 
-# Authorization Code
+## Authorization Code
 
 @ul
 - OAuth dance
@@ -26,19 +24,19 @@
 
 +++
 
-# Implicit
+## Implicit
 
 @ul
 - not recommended!
 - Client doesn't see user credentials
-- Authentication at Authorization-server
-- Redirect with token to Client
+- Authentication at Authorization-Server
+- Redirect with *token* to Client
 - No Client-Credentials possible 
 @ulend
 
 +++
 
-# Password
+## Password
 
 @ul
 - Client & User credentials
@@ -48,7 +46,7 @@
 
 +++
 
-# Client 
+## Client 
 
 @ul
 - Client credentials *only*
@@ -57,7 +55,7 @@
 
 +++
 
-# Refresh
+## Refresh
 
 @ul
 - Optional 
