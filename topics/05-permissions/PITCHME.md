@@ -84,7 +84,8 @@ http
   .authorizeRequests()
     .antMatchers(POST, uri).hasAuthority("auth1") 
     .antMatchers(GET, uri).hasAnyAuthority("auth1", "auth2")
-    .antMatchers(PUT, uri).access("hasAuthority('auth1') or #oauth2.hasScope('scope1')")
+    .antMatchers(PUT, uri).access(
+        "hasAuthority('auth1') or #oauth2.hasScope('scope1')")
 ```
 @[3](check for one authority)
 @[4](check for one of multiple authorities)
