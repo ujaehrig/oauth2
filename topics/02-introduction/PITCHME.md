@@ -5,16 +5,15 @@
 # Why?
 
 @ul
-- Security for calls between services in a distributed system @note[no single security context like in a monolith]
-    - make sure only known services (http clients) can access service endpoints
+- Distributed systems need a security layer @note[no single security context like in a monolith, making sure only allowed services can access each other]
 - A standardized (RFC6749) framework
 
 @ulend
 
 +++
-# Terms & Definitions
+# Terms
 
-## Players
+### @css[transition] Players
 @ul
 
 - Resource Owner @note[An entity capable of granting access to a protected resource. E.g. the end-user]
@@ -24,7 +23,7 @@
 
 @ulend
 
-## Items
+### @css[transition] Items
 @ul
 - access token @note[a token issued from Authorization server used as a key to access resources]
 - refresh token @note[renew access token without re-authenticating again]
