@@ -13,17 +13,17 @@
 +++
 # Terms
 
-### @css[transition] Players
+## @css[transition](Players)
 @ul
 
 - Resource Owner @note[An entity capable of granting access to a protected resource. E.g. the end-user]
 - Client @note[An application making protected resource requests on behalf of the resource owner]
 - Resource Server @note[The server hosting the protected resources]
 - Authorization Server @note[A server issuing access tokens to the client after authenticating the resource owner]
-
 @ulend
 
-### @css[transition] Items
++++ 
+## Items
 @ul
 - access token @note[a token issued from Authorization server used as a key to access resources]
 - refresh token @note[renew access token without re-authenticating again]
