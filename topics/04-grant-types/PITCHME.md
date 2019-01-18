@@ -12,6 +12,8 @@
 
 +++?image=https://source.unsplash.com/zdSoe8za6Hs
 
+@transition[fade-in]
+
 ## Authorization Code
 
 @ul
