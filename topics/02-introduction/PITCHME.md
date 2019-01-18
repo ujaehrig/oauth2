@@ -5,9 +5,8 @@
 # Why?
 
 @ul
-- Distributed systems need a security layer @note[no single security context like in a monolith, making sure only allowed services can access each other]
+- Distributed systems also need a security layer @note[no single security context like in a monolith, making sure only allowed services can access each other]
 - A standardized (RFC6749) framework
-
 @ulend
 
 +++
@@ -23,6 +22,8 @@
 @ulend
 
 +++ 
+# Terms
+
 ## Items
 @ul
 - access token @note[a token issued from Authorization server used as a key to access resources]
