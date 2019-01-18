@@ -5,7 +5,7 @@
 # Why?
 
 @ul
-- Security for calls between services in a distributed system @[note: no single security context like in a monolith]
+- Security for calls between services in a distributed system @note[no single security context like in a monolith]
     - make sure only known services (http clients) can access service endpoints
 - A standardized (RFC6749) framework
 

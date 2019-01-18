@@ -12,8 +12,6 @@
 
 +++?image=https://source.unsplash.com/zdSoe8za6Hs
 
-@transition[fade-in]
-
 ## Authorization Code
 
 @ul
@@ -21,7 +19,7 @@
 - Client doesn't see user credentials
 @ulend
 
-### OAuth dance
+### @css[fragment](OAuth dance)
 
 @ol
 - Client redirects to authorization server login page
