@@ -15,12 +15,18 @@
 ## Authorization Code
 
 @ul
-- OAuth dance
+- used for user authorization
 - Client doesn't see user credentials
-- Authentication at Authorization-Server
-- Redirect with code to Client 
-- Client requests token with client credentials
 @ulend
+
+### OAuth dance
+
+@ol
+- Client redirects to authorization server login page
+- User authenticates against Authorization-Server
+- Redirect with authorization code back to client application
+- Client exchanges the code for an access token using its credentials
+@olend
 
 +++
 
