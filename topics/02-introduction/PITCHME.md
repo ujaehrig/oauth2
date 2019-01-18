@@ -12,7 +12,11 @@
 +++
 # Terms
 
+@snap[west]
 ## @css[transition](Players)
+@snapend
+
+@snap[west fragment]
 @ul
 
 - Resource Owner @note[An entity capable of granting access to a protected resource. E.g. the end-user]
@@ -20,6 +24,17 @@
 - Resource Server @note[The server hosting the protected resources]
 - Authorization Server @note[A server issuing access tokens to the client after authenticating the resource owner]
 @ulend
+@snapend
+
+@snap[east]
+## Items
+@snapend
+
+@snap[east fragment]
+- test
+- test
+- test
+@snapend
 
 +++ 
 # Terms
