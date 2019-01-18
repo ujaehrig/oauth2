@@ -10,13 +10,13 @@
 @ulend
 
 +++
+@snap[north]
 # Terms
-
-@snap[north-west]
-## @css[transition](Players)
 @snapend
 
 @snap[west fragment]
+## @css[transition](Players)
+
 @ul
 
 - Resource Owner @note[An entity capable of granting access to a protected resource. E.g. the end-user]
@@ -26,15 +26,13 @@
 @ulend
 @snapend
 
-@snap[north-east]
-## Items
-@snapend
-
 @snap[east fragment]
+## Items
+
 @ul
-- test
-- test
-- test
+- access token @note[a token issued from Authorization server used as a key to access resources]
+- refresh token @note[renew access token without re-authenticating again]
+- authorization code @note[a temporary, one use code used during authorazation_code workflow]
 @ulend
 @snapend
 
