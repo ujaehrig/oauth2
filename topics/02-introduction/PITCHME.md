@@ -12,7 +12,7 @@
 +++
 # Terms
 
-@snap[west]
+@snap[north-west]
 ## @css[transition](Players)
 @snapend
 
@@ -26,14 +26,16 @@
 @ulend
 @snapend
 
-@snap[east]
+@snap[north-east]
 ## Items
 @snapend
 
 @snap[east fragment]
+@ul
 - test
 - test
 - test
+@ulend
 @snapend
 
 +++ 
