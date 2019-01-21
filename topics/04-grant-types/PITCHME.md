@@ -10,7 +10,7 @@
 
 @ulend
 
-+++?image=https://source.unsplash.com/zdSoe8za6Hs
++++
 
 ## Authorization Code
 
@@ -19,9 +19,12 @@
 - Client doesn't see user credentials
 @ulend
 
-### @css[fragment](OAuth dance)
++++?image=https://source.unsplash.com/zdSoe8za6Hs
+
+### Authorization Code dance
 
 @ol
+- User (resource owner) wants to access his/her data (resource) through a client
 - Client redirects to authorization server login page
 - User authenticates against Authorization-Server
 - Redirect with authorization code back to client application
