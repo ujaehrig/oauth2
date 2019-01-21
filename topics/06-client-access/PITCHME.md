@@ -1,9 +1,9 @@
-# Spring Client usage
+# Client 
 
 @ul
-- Spring security oauth library provides an OAuthRestOperations interface
-- works like RestTemplate, but cares about access token retrieval in the background
+- OAuth2RestTemplate class @note[ provided by spring-security-oauth lib]
+- extends RestTemplate, adds token processing in the background
 - configuration needed
-  - to set client credentials
-  - point to Authentication Server for token retrieval/checking
+  - client credentials
+  - authentication server URL
 @ulend
