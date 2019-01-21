@@ -1,4 +1,4 @@
-# Client 
+# Spring Client 
 
 @ul
 - OAuth2RestTemplate class @note[ provided by spring-security-oauth lib]
