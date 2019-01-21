@@ -39,7 +39,7 @@
 @ul
 - Spring Security
 - on method level
-- on endpoint
+- on endpoint (any URI + HTTP method combination)
 - SpEL @note[Spring Expression Language]
 @ulend
 
@@ -89,4 +89,4 @@ http
 ```
 @[3](check for one authority)
 @[4](check for one of multiple authorities)
-@[5](check for SpEL)
+@[5,6](check for SpEL)

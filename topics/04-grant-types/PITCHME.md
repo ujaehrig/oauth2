@@ -10,17 +10,20 @@
 
 @ulend
 
-+++?image=https://source.unsplash.com/zdSoe8za6Hs
++++
 
 ## Authorization Code
 
 @ul
-- OAuth dance
+- used for user authorization
 - Client doesn't see user credentials
-- Authentication at Authorization-Server
-- Redirect with code to Client 
-- Client requests token with client credentials
 @ulend
+
++++?image=https://source.unsplash.com/zdSoe8za6Hs
+
+### Authorization Code dance
+
+![OAuth Dance](assets/img/authorization_code_flow.png)
 
 +++
 
